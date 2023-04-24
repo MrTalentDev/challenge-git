@@ -30,3 +30,15 @@ How to attempt this challenge:
 
 You must follow these steps for your solution to be accepted -- forks or other methods will not be considered.
 
+
+## My Solution
+
+```cmd
+git fetch origin
+git checkout master
+git rebase origin/feature/base64
+git rebase origin/feature/useragent
+git --continure
+git push origin master
+```
+
